@@ -1,0 +1,9 @@
+Q = plot(0)
+for c in range(-10, 10, 1):
+    P = plot (c*x-c^2, -20, 20, color = 'blue')
+    Q = Q + P
+
+R = plot (x^2/4, -20, 20, color = 'red', thickness =5)
+
+S = Q + R
+S.show()
